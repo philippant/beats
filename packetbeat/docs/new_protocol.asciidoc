@@ -102,6 +102,17 @@ We are working on updating this section. While you're waiting for updates, you
 might want to try out the TCP protocol generator at
 https://github.com/elastic/beats/tree/master/packetbeat/scripts/tcp-protocol.
 
+[[config-file]]
+
+packetbeat.protocols.echo:
+  ports: [3030] 
+  
+  in packetbeat.xml to specifiy which port to monitor.
+
+
+add : 
+
+
 [[testing]]
 == Testing
 
